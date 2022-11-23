@@ -147,7 +147,7 @@
 	height:auto;
 	padding-top:50px;
 }
-.banner-content h2{
+.banner-content h1{
 	font-size:40px;
     font-family:Jost,sans-serif;
 	color:#fff;
@@ -285,6 +285,9 @@
 	font-size:30px;
 	font-weight:400;
 	margin-top:20px;
+}
+.eum-section span{
+	color:#47b2e4;
 }
 .eum-cnt-1 h2 strong{
 	font-weight:bolder;
@@ -623,10 +626,6 @@
 .portfolio-img:hover .portfolio-overlay{
 	opacity:1;
 }
-.row{
-	display:flex;
-	
-}
 .justify-content-center{
 	justify-content:center !important;
 }
@@ -682,16 +681,28 @@
 	line-height:10px;
 }
 .info p{
-	font-size:14px;
+	font-size:13px;
 	color:gray;
 	line-height:20px;
-	padding-top:10px;
+	padding-top:20px;
 }
 .info h4{
 	margin:20px 30px 10px 40px;
 	color:#37517e;
 	font-size:20px;
 	font-weight:700;
+}
+.team-section .info{
+	position:relative;
+}
+.team-section .underline{
+	background-color:#adb5bd;
+	width:55px;
+	height:1.5px;
+	margin-bottom:10px;
+	position:absolute;
+	left:130px;
+	margin:10px 0px;
 }
 .icons{
 	display:flex;
@@ -1167,7 +1178,7 @@ form input[type=submit]:hover {
 	width:40px;
 	height:40px;
 	transition:all 0.3s ease;
-	z-index:996;
+	z-index:99;
 	visibility:hidden;
 	opacity:0;
 }

@@ -94,14 +94,10 @@
 /*----banner starts---*/
 .banner-section{
 	background-color:#37517E;
-	margin-top:40px;
 	background-repeat:no-repeat;
-	width:100%;
-	background-position:right;
 }
-.container-fluid{
+.header-section{
 	background-color:#37517E;
-	margin-top:20px;
 	position:fixed;
 	top:0;
 	left:0;
@@ -113,7 +109,6 @@
 	font-size:30px;
 	font-weight:500;
 	font-family:Jost,sans-serif;
-	padding-left:100px;
 }
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover{
 	color:#fff;
@@ -143,11 +138,15 @@
 	color:#fff;
 }
 .image{
-	width:100%;
+	width:80%;
+	max-width:100%;
 	height:auto;
-	padding-top:50px;
+	padding-top:80px;
 }
-.banner-content h1{
+.banner-section{
+	padding:50px 0px;
+}
+.banner-section h1{
 	font-size:40px;
     font-family:Jost,sans-serif;
 	color:#fff;
@@ -155,7 +154,7 @@
 	padding-bottom:10px;
 	font-weight:700;
 }
-.banner-content h4{
+.banner-section h4{
 	color:#8090AD;
 	font-family:Jost,sans-serif;
 	font-size:22px;
@@ -172,24 +171,24 @@
 .nav-button:hover{
 	background-color:#209dd8;
 }
-.banner-content a{
+.banner-section a{
 	text-decoration:none;
 	color:#fff;
 	text-align:center;
 	font-size:14px;
 }
-.banner-content span{
+.banner-section span{
 	font-size:20px;
 }
-.banner-content i{
+.banner-section i{
 	color:#fff;
 	font-size:26px;
 	padding-right:10px;
 }
-.banner-content i:hover{
+.banner-section i:hover{
 	color:#73c5eb;
 }
-.banner-content p{
+.banner-section p{
 	font-size:16px;
 	color:#fff;
 }
@@ -355,6 +354,7 @@
 /*---vol-img section---*/
 .vol-img-section{
 	background-color:#fff;
+	padding-bottom:30px;
 }
 .vol-img-1 img{
 	height:auto;
@@ -401,7 +401,6 @@
 /*----services-section----*/
 .services-section{
 	background-color:#f3f5fa;
-	margin:70px 0px;
 }
 .services-title h2{
 	font-size:32px;
@@ -458,27 +457,27 @@
 	background-color:#fff;
 	padding:50px 20px;
 	margin-top:40px;
+	margin-bottom:50px;
 	transition:all 0.3s ease;
 }
 .services-section .service-img:hover{
 	transform:translateY(-10px);
 }
-.service-cnt{
+.cta-section{
 	background-image:linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)),url(../images/cta-bg.jpg);
 	background-size:cover;
-	padding:120px 0px;
-	margin-top:30px;
+	padding:80px 0px;
 }
-.call-action h2{
+.cta-section .call-action h2{
 	color:#fff;
 	font-size:28px;
+	font-weight:600;
 	padding-bottom:15px;
-	padding-left:120px;
 }
-.call-action p{
+.cta-section .call-action p{
 	color:#fff;
+	font-size:16px;
 	line-height:25px;
-	padding-left:120px;
 }
 .call-btn{
 	margin-top;20px;
@@ -508,7 +507,8 @@
 	color:#37517e;
 	position:relative;
 	text-align:center;
-	padding:30px;
+	padding-top:60px;
+	padding-bottom:30px;
 	font-family:Jost,sans-serif;
 }
 .portfolio-title h2::after{
@@ -633,7 +633,7 @@
 /*-----team section starts----*/
 .team-section{
 	background-color:#f3f5fa;
-    padding:50px 20px;
+    padding:50px 0px;
 }
 .team-title h2{
 	font-size:32px;
@@ -732,7 +732,7 @@
 /*----pricing-section starts---*/
 .pricing-section{
 	background-color:#fff;
-	padding:50px 20px;
+	padding:50px 0px;
 }
 .pricing-title h2{
 	font-size:32px;
@@ -1160,6 +1160,7 @@ form input[type=submit]:hover {
 }
 .footer-links .credits{
 	float:right;
+	padding-right:50px;
 	font-size:12px;
 	color:#fff;
 }
@@ -1179,8 +1180,11 @@ form input[type=submit]:hover {
 	height:40px;
 	transition:all 0.3s ease;
 	z-index:99;
-	visibility:hidden;
-	opacity:0;
+	bottom:12px;
+	right:10px;
+}
+.back-to-top a{
+	text-decoration:none;
 }
 .back-to-top i{
 	color:#fff;

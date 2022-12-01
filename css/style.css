@@ -1,6 +1,6 @@
 /*-----container and grids----*/
 .container{
-	width:1170px;
+	
 	padding-left:15px;
 	padding-right:15px;
 	margin:0 auto;
@@ -107,6 +107,9 @@
 	padding-bottom:10px;
 	font-weight:700;
 }
+.order-2{
+	order:2 !important;
+}
 .banner-section h4{
 	color:#8090AD;
 	font-family:Jost,sans-serif;
@@ -117,18 +120,49 @@
 	background-color:#73c5eb;
 	border-radius:25px;
 	color:#fff;
-	padding:10px 20px;
+	padding:13px 30px;
 	display:inline-block;
 	margin:50px 10px 50px 0px;
 }
+.navbar-toggler span{
+	color:#fff;
+}
+.navbar-light .navbar-toggler{
+	color:none;
+	border:0;
+}
 .nav-button:hover{
 	background-color:#209dd8;
+}
+.dropdown-sub{
+	position:relative;
+}
+.dropdown-nav-sub{
+	position:absolute;
+	left:100%;
+	top:0;
+	min-width:190px;
+	background-color:#fff;
+	box-shadow:1px -2px 18px -6px #ccc;
+	padding:15px 20px;
+	text-align:left;
+	padding:15px 10px;
+	transform:translateX(-20px);
+	opacity:0;
+	visibility:hidden;
+	transition:all 0.3s ease;
+}
+.dropdown-sub:hover .dropdown-nav-sub{
+	transform:translateX(0);
+	opacity:1;
+	visibility:visible;
 }
 .banner-section a{
 	text-decoration:none;
 	color:#fff;
 	text-align:center;
-	font-size:14px;
+	font-size:18px;
+	font-weight:500;
 }
 .banner-section span{
 	font-size:20px;
@@ -403,6 +437,7 @@
 .title p{
 	color:#444444;
 	font-size:18px;
+	text-align:center;
 	line-height:25px;
 	padding-top:20px;
 	font-family:Open-sans,sans-serif;
@@ -638,6 +673,7 @@
 	background-color:#fff;
 	border-radius:10px;
 	padding:20px;
+	margin:20px;
 	margin-bottom:20px;
 	box-sizing:border-box;
 	display:flex;
@@ -667,6 +703,9 @@
 	position:relative;
 	flex-grow:1;
 	padding-left:20px;
+}
+.mt-4{
+	margin-top:4px !important;
 }
 .team-section .underline{
 	background-color:#adb5bd;
@@ -738,8 +777,8 @@
 }
 .pricing-box-2 .plan{
 	background-color:#fff;
-	border-radius:25px;
-	border-top:2px solid #fff;
+	border-radius:15px;
+	border-top:3px solid #47b2e4;
 	box-shadow:0 3px 20px -2px rgb(20 45 100 / 10%);
 	padding:30px;
 }
@@ -949,8 +988,7 @@
 .contact-section .info p{
 	color:#6182ba;
 	font-size:14px;
-	margin-bottom:20px;
-	padding:0px 0px 10px 60px;
+	padding:0px 0px 10px 50px;
 }
 .contact-section .info{
 	background-color:#fff;
@@ -979,7 +1017,7 @@
 }
 .contact-form button[type=submit]{
 	background-color:#47b2e4;
-	padding:12px 20px;
+	padding:20px;
 	color:#fff;
 	transition:all 0.5s ease;
 	border-radius:3px;
@@ -1141,6 +1179,7 @@ form input[type=submit]:hover {
 }
 .credits span{
 	font-size:13px;
+	padding-left:5px;
 }
 .footer-links .credits{
 	float:right;

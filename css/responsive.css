@@ -1,4 +1,4 @@
-@media(max-width:420px){
+/*---@media(max-width:420px){
 	.pricing-section .pricing-box{
 		width:100%;
 		margin:0px auto 30px auto;
@@ -17,7 +17,7 @@
 		width:80%;
 		margin:0px auto 30px auto;
 	}
-}
+}--*/
 
 @media(max-width:992px){
 	.banner-section h1{
@@ -29,12 +29,12 @@
 	.btn-section{
 		text-align:center;
 	}
-	.pricing-section .pricing-box{
+	/*--.pricing-section .pricing-box{
 		width:60%;
 		margin:0 auto 30px auto;
 	}
 	.pricing-section .pricing-box-2{
 		width:60%;
 		margin:0 auto 30px auto;
-	}
+	}--/
 }
